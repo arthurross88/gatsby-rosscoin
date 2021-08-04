@@ -5,6 +5,13 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
+  module.exports = {
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ],
+}
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
