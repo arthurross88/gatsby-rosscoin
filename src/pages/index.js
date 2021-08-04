@@ -37,7 +37,9 @@ The counter arguments are that the feeling of joy, that you get, is highly addic
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
+
   </Layout>
+     <Link to="/https://github.com/arthurross88/Rosscoin/">Go to page Git repository Rosscoin</Link> <br />
 )
 
 export default IndexPage
