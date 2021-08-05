@@ -13,6 +13,8 @@ const IndexPage = () => (
     <h1>Welcome to Rosscoin.com</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
     <p>
+     <Link to="/https://github.com/arthurross88/Rosscoin/">Go to page Git repository Rosscoin</Link>
+    <p>
 
 The Ross Machine (Ross)
 
@@ -30,7 +32,9 @@ As long as you’re higher in scale you will be more capable of manipulating the
 So in conclusion the Ross Machine generates happiness, in ways of pleasure, and helps wishes and desires come true. 
 
 The counter arguments are that the feeling of joy, that you get, is highly addictive, therefore there should be a specific time of the day that you may use the Ross Machine. For instance only at 4 o’clock in the afternoon.
-</p>
+  
+  </p>
+  </p>
     <StaticImage
       src="../images/rosscoin.png"
       width={300}
@@ -41,9 +45,6 @@ The counter arguments are that the feeling of joy, that you get, is highly addic
     />
 
   </Layout>
-    <p>
-     <Link to="/https://github.com/arthurross88/Rosscoin/">Go to page Git repository Rosscoin</Link>
-    </p>
 )
 
 export default IndexPage
