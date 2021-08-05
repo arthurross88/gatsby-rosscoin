@@ -41,9 +41,9 @@ The counter arguments are that the feeling of joy, that you get, is highly addic
     />
 
   </Layout>
-<p>
-     <Link to="/https://github.com/arthurross88/Rosscoin/">Go to page Git repository Rosscoin</Link> <br />
-       </p>
+    <p>
+     <Link to="/https://github.com/arthurross88/Rosscoin/">Go to page Git repository Rosscoin</Link>
+    </p>
 )
 
 export default IndexPage
