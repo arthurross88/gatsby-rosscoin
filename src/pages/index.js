@@ -30,11 +30,11 @@ So in conclusion the Ross Machine generates happiness, in ways of pleasure, and 
 The counter arguments are that the feeling of joy, that you get, is highly addictive, therefore there should be a specific time of the day that you may use the Ross Machine. For instance only at 4 o’clock in the afternoon.
 </p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/rosscoin.png"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
+      alt="The coin"
       style={{ marginBottom: `1.45rem` }}
     />
 
