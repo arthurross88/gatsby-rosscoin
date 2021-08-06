@@ -24,7 +24,7 @@ const Header = ({ Rosscoin }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {Rosscoin}
         </Link>
       </h1>
     </div>
