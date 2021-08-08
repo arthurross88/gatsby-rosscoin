@@ -3,7 +3,7 @@ module.exports = {
     title: `Rosscoin`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://github.com/arthurross88/Rosscoin`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
