@@ -20,6 +20,22 @@ const IndexPage = () => (
     <i class="fa fa-bars"></i>
   </a>
 </div>
+
+<div style="padding-left:16px">
+  <h2>Responsive Topnav Example</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
     <p>
     <h1>Welcome to Rosscoin.com</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
