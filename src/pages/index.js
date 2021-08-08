@@ -12,6 +12,14 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>Welcome to Rosscoin.com</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
+    <p>Default:</p>
+  <div class="w3-bar w3-light-grey w3-border">
+    <a href="#" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-search"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-globe"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-sign-in"></i></a>
+  </div>
     <p>
 
 The Ross Machine (Ross)
