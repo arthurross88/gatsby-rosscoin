@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -22,6 +22,11 @@ ul {
 
 li {
   float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
 }
 
 li a {
@@ -44,14 +49,15 @@ li a:hover:not(.active) {
 <body>
 
 <ul>
-  <li><a href="#home">Home</a></li>
+  <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
 </ul>
 
 </body>
 </html>
+
   <Layout>
     <Seo title="Home" />
     <h1>Welcome to Rosscoin.com</h1>
