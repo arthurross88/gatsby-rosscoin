@@ -11,13 +11,15 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
         <p>Menu:</p>
-  <div class="w3-bar w3-light-grey w3-border">
-    <a href="#" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i></a>
-    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-search"></i></a>
-    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
-    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-globe"></i></a>
-    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-sign-in"></i></a>
-  </div>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     <p>
     <h1>Welcome to Rosscoin.com</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
