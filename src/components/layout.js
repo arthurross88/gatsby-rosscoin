@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}
           {` `}
-          <a href="https://www.gatsbyjs.com">Rosscoin</a>
+          <a href="https://github.com/arthurross88/Rosscoin">Rosscoin</a>
         </footer>
       </div>
     </>
