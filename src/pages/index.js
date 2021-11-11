@@ -20,7 +20,7 @@ const IndexPage = () => (
   </a>
 </div>
     <p>
-    <h1>Welcome to Rosscoin.com</h1>
+    <h1>Welcome to Rosscoin.nl</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
 
 The Ross Machine (Ross)
