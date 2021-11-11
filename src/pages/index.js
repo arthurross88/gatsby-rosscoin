@@ -9,22 +9,19 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, intial=scale-1">
-<link rel="stylesheet" href="/w3css/3/w3.css">
   <Layout>
     <Seo title="Home" />
   
   <!-- Navigation -->
-<nav class="w3-bar w3-black">
-  <a href="#home" class="w3-button w3-bar-item">Home</a>
-  <a href="#news" class="w3-button w3-bar-item">News</a>
-  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
-  <a href="#about" class="w3-button w3-bar-item">About</a>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-</nav>
+</div>
     <p>
     <h1>Welcome to Rosscoin.nl</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
