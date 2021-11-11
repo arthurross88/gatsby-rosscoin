@@ -9,26 +9,6 @@ import Seo from "../components/seo"
 
   <Layout>
     <Seo title="Home" />
-         <div>
-          <nav>
-            <ul style={{ display: "flex", flex: 1 }}>
-              {menuLinks.map(link => (
-                <li
-                  key={link.name}
-                  style={{
-                    listStyleType: `none`,
-                    padding: `1rem`,
-                  }}
-                >
-                  <Link style={{ color: `white` }} to={link.link}>
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
-
     <p>
     <h1>Welcome to Rosscoin.nl</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
