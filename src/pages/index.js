@@ -8,6 +8,11 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intial=scale-1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<html>
   <Layout>
     <Seo title="Home" />
   
@@ -53,6 +58,7 @@ The counter arguments are that the feeling of joy, that you get, is highly addic
     />
 
   </Layout>
+</html>
 )
 
 export default IndexPage
