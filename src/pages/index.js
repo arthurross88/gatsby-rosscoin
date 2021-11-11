@@ -9,9 +9,6 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   
-  <Layout>
-    <Seo title="Home" />
-  
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -104,7 +101,8 @@ function myFunction() {
 
 </body>
 </html>
-
+  <Layout>
+    <Seo title="Home" />
     <p>
     <h1>Welcome to Rosscoin.nl</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
