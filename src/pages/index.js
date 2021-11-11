@@ -99,8 +99,6 @@ function myFunction() {
 }
 </script>
 
-</body>
-</html>
   <Layout>
     <Seo title="Home" />
     <p>
@@ -135,6 +133,8 @@ The counter arguments are that the feeling of joy, that you get, is highly addic
     />
 
   </Layout>
+</body>
+</html>
 )
 
 export default IndexPage
