@@ -10,6 +10,8 @@ import Seo from "../components/seo"
   <Layout>
     <Seo title="Home" />
 
+<body>
+
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
   <a href="#news">News</a>
@@ -35,6 +37,8 @@ function myFunction() {
   }
 }
 </script>
+
+</body>
 
     <p>
     <h1>Welcome to Rosscoin.nl</h1>
