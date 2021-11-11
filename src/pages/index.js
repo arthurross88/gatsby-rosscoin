@@ -10,11 +10,13 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+  
+  <!-- Navigation -->
 <nav class="w3-bar w3-black">
   <a href="#home" class="w3-button w3-bar-item">Home</a>
-  <a href="#news">News </a>
-  <a href="#contact">Contact </a>
-  <a href="#about">About </a>
+  <a href="#news" class="w3-button w3-bar-item">News</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+  <a href="#about" class="w3-button w3-bar-item">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
