@@ -30,7 +30,7 @@ const IndexPage = () => (
     <h1>Welcome to Rosscoin.nl</h1>
     <p>Here you'll find everything you need to know about Rosscoin.</p>
 
-The Ross Machine (Ross)
+The Ross Machine (Ross 1.3)
 
 The Ross machine is designed by me Arthur Ross.
 
