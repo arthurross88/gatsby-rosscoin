@@ -1,16 +1,39 @@
-import { Link } from 'gatsby'
-import React from 'react'
+// Navbar.js
 
-export default function Navbar(){
-  return(
-    <nav>
-    <h1> Web Warrior </h1>
-    <div className="links">
-    <a href=''></a>
-    <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
-    <Link to="/projects">Projects</Link>
-    </div>
-    </nav>
-    )
+import React, { useState } from "react"
+import NavbarLinks from "./NavbarLinks"
+import Logo from "./Logo"
+import styled from 'styled-components'
+
+const Navigation = styled.nav``
+const Toggle = styled.div``
+const Navbox = styled.div``
+const Hamburger = styled.div``
+
+
+const Navbar = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false)
+
+  return (
+    <Navigation>
+      <Logo />
+      <Toggle
+        navbarOpen={navbarOpen}
+        onClick={() => setNavbarOpen(!navbarOpen)}
+      >
+        {navbarOpen ? <Hamburger open /> : <Hamburger />}
+      </Toggle>
+      {navbarOpen ? (
+        <Navbox>
+          <NavbarLinks />
+        </Navbox>
+      ) : (
+        <Navbox open>
+          <NavbarLinks />
+        </Navbox>
+      )}
+    </Navigation>
+  )
 }
+
+export default Navbar
